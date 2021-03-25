@@ -1,0 +1,24 @@
+# +----------------------+
+# |   General settings   |
+# +----------------------+
+logging: "debug"  # available options: debug, info, warning, error, critical
+threshold: 30000  # price threshold
+request_time_interval: 300  # [s] -> 5[m]
+
+
+# +--------------------+
+# |   Coinmarket API   |
+# +--------------------+
+api_key: "your_coinmarketcap_api_key"  # https://pro.coinmarketcap.com/
+cryptocurrency_listings_latest_url: "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest"
+cryptocurrency_quotes_latest_url: "https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest"
+
+
+# +---------------------------+
+# |   Telegram bot settings   |
+# +---------------------------+
+bot_token: "your_telegram_bot_token"
+# To get the chat_id use below API
+# https://api.telegram.org/bot<YOUR_BOT_API_TOKEN>/getUpdates
+chat_id: "your_telegram_account_chat_id_here"
+telegram_bot_api: "https://api.telegram.org/bot{bot_token}/sendMessage?"

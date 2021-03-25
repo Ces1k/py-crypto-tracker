@@ -1,0 +1,24 @@
+# +----------------------+
+# |   General settings   |
+# +----------------------+
+logging: "debug"
+threshold: 30000
+request_time_interval: 300  # [s] -> 5[m]
+
+
+# +--------------------+
+# |   Coinmarket API   |
+# +--------------------+
+api_key: "12345678-1234-1234-1234-123456789012"
+cryptocurrency_listings_latest_url: "test_cryptocurrency_listings_latest_url"
+cryptocurrency_quotes_latest_url: "test_cryptocurrency_quotes_latest_url"
+
+
+# +---------------------------+
+# |   Telegram bot settings   |
+# +---------------------------+
+bot_token: "1234567890:ABCDEFGHIJKLMNOPQRSUTVWXYZ123456789"
+# To get the chat_id use below API
+# https://api.telegram.org/bot<YOUR_BOT_API_TOKEN>/getUpdates
+chat_id: "-123456789"
+telegram_bot_api: "test_telegram_bot_api"
