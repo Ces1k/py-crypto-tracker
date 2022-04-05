@@ -3,7 +3,7 @@ Python Cryptocurrency price tracker with use of https://coinmarketcap.com/api/pr
 
 ## Setup virtual environment
 1. Clone the repository:\
-   `git clone https://github.com/Ces1k/py-crypto-tracker.git`
+   `git clone https://github.com/gherud/py-crypto-tracker.git`
 2. Go to the directory:\
    `cd py-crypto-tracker`
 3. Create venv directory:\
