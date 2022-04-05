@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-AUTHOR = "Ces1k"
+AUTHOR = "gherud"
 NAME = "py-crypto-tracker"
 
 
